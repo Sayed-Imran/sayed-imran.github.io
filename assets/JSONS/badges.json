@@ -1,0 +1,36 @@
+{
+    "badges":[
+        {
+            "id":1,
+            "url":"/assets/images/badge1.png"
+        },
+        {
+            "id":2,
+            "url":"/assets/images/badge2.png"
+        },
+        {
+            "id":3,
+            "url":"/assets/images/badge3.png"
+        },
+        {
+            "id":4,
+            "url":"/assets/images/badge4.png"
+        },
+        {
+            "id":5,
+            "url":"/assets/images/badge5.png"
+        },
+        {
+            "id":6,
+            "url":"/assets/images/badge6.png"
+        },
+        {
+            "id":7,
+            "url":"/assets/images/badge7.png"
+        },
+        {
+            "id":8,
+            "url":"/assets/images/badge8.png"
+        }
+    ]
+}

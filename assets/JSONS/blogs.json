@@ -1,0 +1,22 @@
+{
+    "blogs":[
+        {
+            "id":1,
+            "img":"/assets/images/blog1.webp",
+            "title":"Infrastructure Provisioning Automation with Terraform Backend & State Lock",
+            "url":"https://sayed-imran.medium.com/infrastructure-provisioning-automation-with-terraform-remote-backend-state-lock-b59efc6a597c"
+        },
+        {
+            "id":1,
+            "img":"/assets/images/blog2.webp",
+            "title":"Empowering Kubernetes Operator Development with Kopf: Deploying to Kubernetes EKS(Part-3)",
+            "url":"https://sayed-imran.medium.com/empowering-kubernetes-operator-development-with-kopf-deploying-to-kubernetes-eks-part-3-ce101db2947c"
+        },
+        {
+            "id":1,
+            "img":"/assets/images/blog3.webp",
+            "title":"Echo Connect (CI-CD on Google Cloud Platform)",
+            "url":"https://medium.com/google-cloud/echo-connect-ci-cd-on-google-cloud-platform-54012de5cdba"
+        }
+    ]
+}
