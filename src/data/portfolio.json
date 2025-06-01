@@ -1,0 +1,363 @@
+{
+    "personal": {
+        "name": "Sayed Imran",
+        "title": "Kubestronaut, DevOps Engineer",
+        "subtitle": "Cloud & Kubernetes Specialist",
+        "bio": "Passionate DevOps Engineer with expertise in cloud technologies, container orchestration, and CI/CD pipelines. I help organizations scale their infrastructure and streamline their deployment processes.",
+        "linkedin": "https://linkedin.com/in/sayed-imran",
+        "github": "https://github.com/sayed-imran",
+        "medium": "https://medium.com/@sayed-imran",
+        "location": "Bengaluru, India"
+    },
+    "certifications": [
+        {
+            "id": 1,
+            "name": "Kubestronaut",
+            "issuer": "The Linux Foundation",
+            "date": "2025",
+            "credentialId": "147f4590-d40c-477e-b45c-408124498824",
+            "logo": "https://images.credly.com/size/340x340/images/cd6c6449-6814-4613-a2d3-13cf4ac5be4f/image.png",
+            "verificationUrl": "https://www.credly.com/badges/147f4590-d40c-477e-b45c-408124498824"
+        },
+        {
+            "id": 2,
+            "name": "Professional Cloud DevOps Engineer Certification",
+            "issuer": "Google Cloud",
+            "date": "2025",
+            "credentialId": "ad9f8d513e8f42aaa4e7ac7b9c397a7d",
+            "logo": "https://images.credly.com/size/340x340/images/33f08b7e-fa6a-41cd-810a-21cc1c336f6d/image.png",
+            "verificationUrl": "https://www.credly.com/badges/323a0138-5a71-4f68-962c-e7588e24212e"
+        },
+        {
+            "id": 3,
+            "name": "Professional Cloud Architect Certification",
+            "issuer": "Google Cloud",
+            "date": "2023",
+            "credentialId": "f5851a5b94984ea9baeff5b552573e50",
+            "logo": "https://images.credly.com/size/340x340/images/71c579e0-51fd-4247-b493-d2fa8167157a/image.png",
+            "verificationUrl": "https://www.credly.com/badges/3a801576-70f0-4d20-af3c-eaf1fb6e0355"
+        },
+        {
+            "id": 4,
+            "name": "AWS Certified Solutions Architect - Associate",
+            "issuer": "Amazon Web Services",
+            "date": "2023",
+            "credentialId": "AZ-400-2023-001",
+            "logo": "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png",
+            "verificationUrl": "https://www.credly.com/badges/48d44d7b-e0d4-4beb-89ca-89ec5ea397b6"
+        },
+        {
+            "id": 5,
+            "name": "CKS: Certified Kubernetes Security Specialist",
+            "issuer": "The Linux Foundation",
+            "date": "2025",
+            "credentialId": "LF-1lbwa4dwzb",
+            "logo": "https://training.linuxfoundation.org/wp-content/uploads/2020/07/kubernetes-security-specialist-logo-300x285.png",
+            "verificationUrl": "https://www.credly.com/badges/3f583a37-c323-4d0b-bea3-51e1a1e7464c"
+        },
+        {
+            "id": 6,
+            "name": "CKA: Certified Kubernetes Administrator",
+            "issuer": "The Linux Foundation",
+            "date": "2025",
+            "credentialId": "LF-sar3sm564g",
+            "logo": "https://images.credly.com/size/340x340/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png",
+            "verificationUrl": "https://www.credly.com/badges/e228cc5d-ebbb-4914-8c88-26a5184ae176"
+        },
+        {
+            "id": 7,
+            "name": "CKAD: Certified Kubernetes Application Developer",
+            "issuer": "The Linux Foundation",
+            "date": "2025",
+            "credentialId": "LF-3k4j5l6m7n",
+            "logo": "https://images.credly.com/size/340x340/images/cc8adc83-1dc6-4d57-8e20-22171247e052/blob",
+            "verificationUrl": "https://www.credly.com/badges/7246cf55-f754-4665-b1ea-ce8164259811"
+        },
+        {
+            "id": 8,
+            "name": "KCNA: Kubernetes and Cloud Native Associate",
+            "issuer": "The Linux Foundation",
+            "date": "2025",
+            "credentialId": "LF-k2609seabz",
+            "logo": "https://training.linuxfoundation.org/wp-content/uploads/2021/09/KCNA-Logo.png",
+            "verificationUrl": "https://www.credly.com/badges/22e0a74b-ef82-4729-abaf-98500ad9de8d"
+        },
+        {
+            "id": 9,
+            "name": "KCSA: Kubernetes and Cloud Native Security Associate",
+            "issuer": "The Linux Foundation",
+            "date": "2025",
+            "credentialId": "LF-4k5l6m7n8o",
+            "logo": "https://training.linuxfoundation.org/wp-content/uploads/2023/01/kcsa_badge_new-300x300.png",
+            "verificationUrl": "https://www.credly.com/badges/f911dee8-a386-4877-97ae-3b08f5b590fd"
+        },
+        {
+            "id": 10,
+            "name": "Associate Cloud Engineer Certification",
+            "issuer": "Google Cloud",
+            "date": "2023",
+            "credentialId": "444c7a0585794ae6bbf0a9f7c168027c",
+            "logo": "https://images.credly.com/size/340x340/images/08096465-cbfc-4c3e-93e5-93c5aa61f23e/image.png",
+            "verificationUrl": "https://www.credly.com/badges/54db5dde-7831-428a-b5fe-bca2843ee530"
+        },
+        {
+            "id": 11,
+            "name": "Cloud Digital Leader Certification",
+            "issuer": "Google Cloud",
+            "date": "2022",
+            "credentialId": "052eb01d11214bb6a43345204a56bd41",
+            "logo": "https://images.credly.com/size/340x340/images/44994cda-b5b0-44cb-9a6d-d29b57163073/image.png",
+            "verificationUrl": "https://www.credly.com/badges/d78160ee-661d-423b-83f9-f221c2956503"
+        },
+        {
+            "id": 12,
+            "name": "GitHub Actions",
+            "issuer": "GitHub",
+            "date": "2024",
+            "credentialId": "50ced870-06d2-4fdc-b67e-0652167ae5c9",
+            "logo": "https://images.credly.com/size/340x340/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png",
+            "verificationUrl": "https://www.credly.com/badges/50ced870-06d2-4fdc-b67e-0652167ae5c9"
+        },
+        {
+            "id": 13,
+            "name": "GitHub Foundations",
+            "issuer": "GitHub",
+            "date": "2024",
+            "credentialId": "284b06fe-0e02-49c3-865c-fd028d92797f",
+            "logo": "https://images.credly.com/size/340x340/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png",
+            "verificationUrl": "https://www.credly.com/badges/284b06fe-0e02-49c3-865c-fd028d92797f"
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "Multi-Cluster Networking with Multi-Cloud Environments: Migrating to Google Kubernetes Engine with Istio",
+            "description": "Leveraging Istio for cross-cluster networking across AWS, GCP, and Azure Kubernetes clusters.",
+            "technologies": [
+                "Kubernetes",
+                "Istio",
+                "Helm",
+                "Prometheus",
+                "Grafana",
+                "AWS",
+                "GCP",
+                "Azure"
+            ],
+            "link": "https://medium.com/@sayed-imran/multi-cluster-networking-with-multi-cloud-migrating-to-google-kubernetes-engine-with-istio-2e1715dcd3e5",
+            "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*kMXuMvaxKpU13WlbMcMoXQ.png",
+            "highlights": [
+                "Cross Cluster networking with Istio",
+                "Multi-cloud deployment strategies",
+                "Migrated live applications from AWS to GCP"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Leveraging Istio to connect External VM to Kubernetes",
+            "description": "Implemented Istio service mesh to connect external virtual machines to Kubernetes clusters, enhancing service discovery and security.",
+            "technologies": [
+                "Istio",
+                "Kubernetes",
+                "Docker",
+                "GKE",
+                "VM Instance",
+                "Google Cloud"
+            ],
+            "link": "",
+            "image": "https://raw.githubusercontent.com/Sayed-Imran/DevOps-and-Cloud/master/Docs/media/IstioExternalVMArch.svg",
+            "highlights": [
+                "Seamless integration of external VMs into Kubernetes",
+                "Enhanced service mesh capabilities",
+                "Improved security and observability"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Infrastructure Provisioning Automation with Terraform Backend & State Lock",
+            "description": "Automated infrastructure provisioning using Terraform with S3 backend and DynamoDB for state locking, ensuring consistency and reliability in deployments.",
+            "technologies": [
+                "Terraform",
+                "AWS",
+                "GitHub",
+                "S3",
+                "DynamoDB",
+                "Jenkins"
+            ],
+            "link": "https://github.com/Sayed-Imran/DevOps-and-Cloud/tree/master/Terraform/k3s-aws-s3-backend-jenkins",
+            "image": "https://miro.medium.com/v2/resize:fit:640/format:webp/1*tba5zPEETt773Z_k7rmdDg.png",
+            "highlights": [
+                "Standardized infrastructure across teams",
+                "Reduced provisioning time by 70%",
+                "Implemented secure secret management"
+            ]
+        }
+    ],
+    "articles": [
+        {
+            "id": 1,
+            "title": "Mastering Kubernetes Networking: A Deep Dive into CNI",
+            "description": "Comprehensive guide to understanding Container Network Interface and implementing advanced networking solutions in Kubernetes clusters.",
+            "url": "https://medium.com/@yourusername/mastering-kubernetes-networking",
+            "publishedDate": "2024-03-15",
+            "readTime": "12 min read",
+            "tags": [
+                "Kubernetes",
+                "Networking",
+                "CNI",
+                "DevOps"
+            ],
+            "claps": 1250
+        },
+        {
+            "id": 2,
+            "title": "Leveraging Istio to connect External VM to Kubernetes",
+            "description": "A practical guide on how to use Istio to connect external virtual machines to Kubernetes clusters, enhancing service mesh capabilities.",
+            "url": "",
+            "publishedDate": "2024-02-28",
+            "readTime": "8 min read",
+            "tags": [
+                "DevOps",
+                "CI/CD",
+                "Kubernetes",
+                "Deployment"
+            ],
+            "claps": 890
+        },
+        {
+            "id": 3,
+            "title": "Multi-Cloud Strategy: Benefits and Implementation",
+            "description": "Exploring the advantages of multi-cloud architecture and practical steps to implement it successfully in your organization.",
+            "url": "https://medium.com/@yourusername/multi-cloud-strategy",
+            "publishedDate": "2024-01-20",
+            "readTime": "10 min read",
+            "tags": [
+                "Cloud",
+                "AWS",
+                "GCP",
+                "Azure",
+                "Strategy"
+            ],
+            "claps": 1100
+        },
+        {
+            "id": 4,
+            "title": "Securing Your Kubernetes Cluster: Best Practices",
+            "description": "Essential security practices and tools to protect your Kubernetes workloads from common vulnerabilities and threats.",
+            "url": "https://medium.com/@yourusername/kubernetes-security-best-practices",
+            "publishedDate": "2023-12-10",
+            "readTime": "15 min read",
+            "tags": [
+                "Kubernetes",
+                "Security",
+                "DevSecOps",
+                "Best Practices"
+            ],
+            "claps": 1560
+        }
+    ],
+    "speaking": [
+        {
+            "id": 1,
+            "event": "KubeCon + CloudNativeCon",
+            "title": "Scaling Kubernetes Across Multiple Cloud Providers",
+            "date": "2024-03-19",
+            "location": "Paris, France",
+            "type": "Conference Talk",
+            "description": "Presented strategies for managing Kubernetes clusters across AWS, GCP, and Azure with focus on networking, storage, and security considerations.",
+            "slides": "https://slides.com/yourname/kubecon-2024",
+            "video": "https://youtube.com/watch?v=your-talk",
+            "audience": 500
+        },
+        {
+            "id": 2,
+            "event": "DevOps Days",
+            "title": "GitOps: The Future of Continuous Deployment",
+            "date": "2024-01-15",
+            "location": "San Francisco, USA",
+            "type": "Workshop",
+            "description": "Hands-on workshop covering GitOps principles and implementation using ArgoCD and Flux for automated deployments.",
+            "slides": "https://slides.com/yourname/devopsdays-2024",
+            "video": "https://youtube.com/watch?v=your-workshop",
+            "audience": 150
+        },
+        {
+            "id": 3,
+            "event": "Cloud Native Meetup",
+            "title": "Observability in Kubernetes: Metrics, Logs, and Traces",
+            "date": "2023-11-20",
+            "location": "London, UK",
+            "type": "Meetup Talk",
+            "description": "Deep dive into implementing comprehensive observability solutions using Prometheus, Grafana, Jaeger, and OpenTelemetry.",
+            "slides": "https://slides.com/yourname/observability-k8s",
+            "video": "https://youtube.com/watch?v=your-meetup-talk",
+            "audience": 80
+        },
+        {
+            "id": 4,
+            "event": "AWS Community Day",
+            "title": "Serverless CI/CD with AWS CodePipeline and Lambda",
+            "date": "2023-09-12",
+            "location": "Virtual Event",
+            "type": "Lightning Talk",
+            "description": "Quick overview of building serverless CI/CD pipelines using AWS native services for reduced infrastructure overhead.",
+            "slides": "https://slides.com/yourname/serverless-cicd",
+            "video": "https://youtube.com/watch?v=your-lightning-talk",
+            "audience": 300
+        }
+    ],
+    "skills": {
+        "cloud": [
+            "AWS",
+            "Google Cloud",
+            "Azure",
+            "Multi-Cloud"
+        ],
+        "containers": [
+            "Docker",
+            "Kubernetes",
+            "OpenShift",
+            "Helm"
+        ],
+        "cicd": [
+            "Jenkins",
+            "GitLab CI",
+            "GitHub Actions",
+            "ArgoCD",
+            "Flux"
+        ],
+        "iac": [
+            "Terraform",
+            "Ansible",
+            "CloudFormation",
+            "Pulumi"
+        ],
+        "monitoring": [
+            "Prometheus",
+            "Grafana",
+            "ELK Stack",
+            "Jaeger",
+            "OpenTelemetry"
+        ],
+        "security": [
+            "Vault",
+            "SOPS",
+            "Falco",
+            "Trivy",
+            "OPA/Gatekeeper"
+        ],
+        "programming": [
+            "Python",
+            "Go",
+            "Bash",
+            "YAML",
+            "JSON"
+        ],
+        "tools": [
+            "Git",
+            "Linux",
+            "Istio",
+            "Consul",
+            "Vault"
+        ]
+    }
+}
