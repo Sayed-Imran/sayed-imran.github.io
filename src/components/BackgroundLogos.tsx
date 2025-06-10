@@ -1,8 +1,32 @@
 'use client';
 
-import { useRef, useMemo, useEffect } from 'react';
+import { useRef, useMemo, useEffect, useState } from 'react';
 import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
 import Image from 'next/image';
+
+// Custom hook for media queries
+function useMediaQuery(query: string): boolean {
+    const [matches, setMatches] = useState(false);
+
+    useEffect(() => {
+        // Check if we're in a browser environment
+        if (typeof window !== 'undefined') {
+            const media = window.matchMedia(query);
+            // Set initial value
+            setMatches(media.matches);
+
+            // Update matches when query changes
+            const listener = () => setMatches(media.matches);
+            media.addEventListener('change', listener);
+
+            // Clean up
+            return () => media.removeEventListener('change', listener);
+        }
+        return undefined;
+    }, [query]);
+
+    return matches;
+}
 
 interface BackgroundLogosProps {
     scrollY: number;
@@ -17,6 +41,10 @@ export default function BackgroundLogos({ scrollY }: BackgroundLogosProps) {
         restDelta: 0.001
     });
 
+    // Media queries for responsive design
+    const isMobile = useMediaQuery('(max-width: 640px)');
+    const isTablet = useMediaQuery('(min-width: 641px) and (max-width: 1024px)');
+
     // Update motion value when scrollY changes
     useEffect(() => {
         scrollMotionValue.set(scrollY);
@@ -24,6 +52,13 @@ export default function BackgroundLogos({ scrollY }: BackgroundLogosProps) {
 
     // Base URL for GitHub raw content
     const baseUrl = 'https://raw.githubusercontent.com/sayed-imran/sayed-imran.github.io/master/public/logos';
+
+    // Calculate size multiplier based on screen size
+    const sizeMultiplier = useMemo(() => {
+        if (isMobile) return 0.35; // 35% of original size on mobile
+        if (isTablet) return 0.6; // 60% of original size on tablets
+        return 1; // 100% original size on desktop
+    }, [isMobile, isTablet]);
 
     const logos = useMemo(() => [
         // Priority logos - visible on first page load
@@ -106,6 +141,9 @@ export default function BackgroundLogos({ scrollY }: BackgroundLogosProps) {
                     logo.priority ? [0.6, 0.7, 0.5, 0.3] : [0.3, 0.4, 0.25, 0.2]
                 );
 
+                // Apply size multiplier based on screen size
+                const responsiveScale = logo.scale * sizeMultiplier;
+
                 return (
                     <motion.div
                         key={index}
@@ -113,8 +151,8 @@ export default function BackgroundLogos({ scrollY }: BackgroundLogosProps) {
                         style={{
                             left: `${50 + logo.position.x}%`,
                             top: `${50 + logo.position.y}%`,
-                            width: `${logo.scale}px`,
-                            height: `${logo.scale}px`,
+                            width: `${responsiveScale}px`,
+                            height: `${responsiveScale}px`,
                             opacity: logoOpacity,
                             y: logoY,
                             x: logoX,
@@ -173,8 +211,8 @@ export default function BackgroundLogos({ scrollY }: BackgroundLogosProps) {
                             <Image
                                 src={logo.src}
                                 alt={logo.alt}
-                                width={logo.scale}
-                                height={logo.scale}
+                                width={responsiveScale}
+                                height={responsiveScale}
                                 className="object-contain transition-all duration-500 ease-out"
                                 loading={logo.priority ? "eager" : "lazy"}
                                 priority={logo.priority}
@@ -214,10 +252,13 @@ export default function BackgroundLogos({ scrollY }: BackgroundLogosProps) {
                 // Get position for this particle or use fallbacks if we run out
                 const position = positions[index % positions.length];
 
+                // Adjust particle size for mobile devices
+                const particleSize = isMobile ? "w-1 h-1" : "w-2 h-2";
+
                 return (
                     <motion.div
                         key={`particle-${index}`}
-                        className="absolute w-2 h-2 bg-cyan-400 rounded-full"
+                        className={`absolute ${particleSize} bg-cyan-400 rounded-full`}
                         style={{
                             left: position.left,
                             top: position.top,
