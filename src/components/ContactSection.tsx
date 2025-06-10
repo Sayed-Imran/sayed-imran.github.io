@@ -18,7 +18,7 @@ export default function ContactSection({ personalData }: ContactSectionProps) {
     const topmateUsername = 'sayedimran';
 
     const openTopmate = () => {
-        window.open(`https://topmate.io/${topmateUsername}`, '_blank');
+        window.open(`https://topmate.io/sayedimran/1109843`, '_blank');
     };
 
     const socialLinks = [

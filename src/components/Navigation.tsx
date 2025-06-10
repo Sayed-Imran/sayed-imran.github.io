@@ -19,9 +19,9 @@ export default function Navigation() {
     const navItems = [
         { name: 'About', href: '#about' },
         { name: 'Certifications', href: '#certifications' },
+        { name: 'Speaking', href: '#speaking' },
         { name: 'Projects', href: '#projects' },
         { name: 'Articles', href: '#articles' },
-        { name: 'Speaking', href: '#speaking' },
         { name: 'Contact', href: '#contact' },
     ];
 

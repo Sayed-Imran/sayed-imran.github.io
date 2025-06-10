@@ -33,7 +33,7 @@ export default function ArticlesSection({ articles }: ArticlesSectionProps) {
                     <div className="flex items-center justify-center mb-4">
                         <FileText className="w-8 h-8 text-cyan-400 mr-3" />
                         <h2 className="text-4xl md:text-5xl font-bold text-white">
-                            Latest Articles
+                            Medium Articles
                         </h2>
                     </div>
                     <p className="text-xl text-gray-300 max-w-3xl mx-auto">
@@ -135,7 +135,7 @@ export default function ArticlesSection({ articles }: ArticlesSectionProps) {
                     className="text-center mt-12"
                 >
                     <motion.a
-                        href="https://medium.com/@yourusername"
+                        href="https://medium.com/@sayed-imran"
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.05, y: -2 }}
@@ -158,13 +158,13 @@ export default function ArticlesSection({ articles }: ArticlesSectionProps) {
                 >
                     <div className="inline-flex items-center space-x-8 bg-slate-800/30 backdrop-blur-sm border border-slate-700/50 rounded-xl px-8 py-4">
                         <div className="text-center">
-                            <div className="text-2xl font-bold text-cyan-400">{articles.length}</div>
+                            <div className="text-2xl font-bold text-cyan-400">26</div>
                             <div className="text-sm text-gray-400">Published Articles</div>
                         </div>
                         <div className="w-px h-10 bg-slate-600" />
                         <div className="text-center">
                             <div className="text-2xl font-bold text-cyan-400">
-                                {articles.reduce((sum, article) => sum + article.claps, 0).toLocaleString()}
+                                1K+
                             </div>
                             <div className="text-sm text-gray-400">Total Claps</div>
                         </div>

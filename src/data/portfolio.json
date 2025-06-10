@@ -195,114 +195,131 @@
     "articles": [
         {
             "id": 1,
-            "title": "Mastering Kubernetes Networking: A Deep Dive into CNI",
-            "description": "Comprehensive guide to understanding Container Network Interface and implementing advanced networking solutions in Kubernetes clusters.",
-            "url": "https://medium.com/@yourusername/mastering-kubernetes-networking",
-            "publishedDate": "2024-03-15",
-            "readTime": "12 min read",
+            "title": "Seamless TLS for Istio on GKE: Auto-Provisioning Certificates with a Custom Admission Controller",
+            "description": "A comprehensive guide on implementing automatic TLS certificate provisioning in Istio on Google Kubernetes Engine using a custom admission controller.",
+            "url": "https://medium.com/google-cloud/seamless-tls-for-istio-on-gke-auto-provisioning-certificates-with-a-custom-admission-controller-b7968053d226",
+            "publishedDate": "2025-04-07",
+            "readTime": "8 min read",
             "tags": [
                 "Kubernetes",
-                "Networking",
-                "CNI",
+                "Controller",
+                "Istio",
+                "GKE",
+                "TLS",
+                "Security",
+                "Cloud Native",
+                "Google Cloud",
+                "Kubernetes Security",
+                "Kubernetes Networking",
+                "Kubernetes Admission Controller",
+                "Service Mesh",
                 "DevOps"
             ],
-            "claps": 1250
+            "claps": 235
         },
         {
             "id": 2,
-            "title": "Leveraging Istio to connect External VM to Kubernetes",
-            "description": "A practical guide on how to use Istio to connect external virtual machines to Kubernetes clusters, enhancing service mesh capabilities.",
-            "url": "",
-            "publishedDate": "2024-02-28",
-            "readTime": "8 min read",
+            "title": "Traffic Management using Istio | Mirroring | Part-2",
+            "description": "Exploring advanced traffic management techniques in Istio, focusing on request mirroring to enhance testing and reliability.",
+            "url": "https://sayed-imran.medium.com/traffic-management-using-istio-mirroring-part-2-8551b8c9d475",
+            "claps": 160,
+            "publishedDate": "2025-05-29",
+            "readTime":"4 min read",
             "tags": [
-                "DevOps",
-                "CI/CD",
                 "Kubernetes",
-                "Deployment"
-            ],
-            "claps": 890
+                "Istio",
+                "Traffic Management",
+                "Mirroring",
+                "Cloud Native",
+                "DevOps"
+            ]
+
         },
         {
             "id": 3,
-            "title": "Multi-Cloud Strategy: Benefits and Implementation",
-            "description": "Exploring the advantages of multi-cloud architecture and practical steps to implement it successfully in your organization.",
-            "url": "https://medium.com/@yourusername/multi-cloud-strategy",
-            "publishedDate": "2024-01-20",
-            "readTime": "10 min read",
+            "title": "Conversing with GKE Clusters: Google's Agent Development Kit in Action",
+            "description": "An in-depth exploration of Google Cloud's Agent Development Kit, showcasing how to build conversational agents that interact with GKE clusters for enhanced management and automation.",
+            "url": "https://sayed-imran.medium.com/conversing-with-gke-clusters-googles-agent-development-kit-in-action-d45a15393886",
+            "publishedDate": "2025-04-12",
+            "readTime": "5 min read",
             "tags": [
-                "Cloud",
-                "AWS",
-                "GCP",
-                "Azure",
-                "Strategy"
+                "Google Cloud",
+                "GKE",
+                "Agent Development Kit",
+                "Conversational Agents",
+                "Kubernetes",
+                "Automation",
+                "Cloud Native"
             ],
-            "claps": 1100
+            "claps": 133
         },
         {
             "id": 4,
-            "title": "Securing Your Kubernetes Cluster: Best Practices",
-            "description": "Essential security practices and tools to protect your Kubernetes workloads from common vulnerabilities and threats.",
-            "url": "https://medium.com/@yourusername/kubernetes-security-best-practices",
-            "publishedDate": "2023-12-10",
-            "readTime": "15 min read",
+            "title": "Empowering Kubernetes Operator Development with Kopf: Deploying to Kubernetes EKS(Part-3)",
+            "description": "A practical guide to developing Kubernetes operators using Kopf, focusing on deploying and managing applications in Amazon EKS clusters.",
+            "url": "https://sayed-imran.medium.com/empowering-kubernetes-operator-development-with-kopf-deploying-to-kubernetes-eks-part-3-ce101db2947c",
+            "publishedDate": "2024-03-03",
+            "readTime": "4 min read",
             "tags": [
                 "Kubernetes",
-                "Security",
-                "DevSecOps",
-                "Best Practices"
+                "Operator Development",
+                "Kopf",
+                "EKS",
+                "Cloud Native",
+                "DevOps",
+                "Automation"
             ],
-            "claps": 1560
+            "claps": 217
         }
     ],
     "speaking": [
         {
             "id": 1,
-            "event": "KubeCon + CloudNativeCon",
-            "title": "Scaling Kubernetes Across Multiple Cloud Providers",
-            "date": "2024-03-19",
-            "location": "Paris, France",
-            "type": "Conference Talk",
-            "description": "Presented strategies for managing Kubernetes clusters across AWS, GCP, and Azure with focus on networking, storage, and security considerations.",
-            "slides": "https://slides.com/yourname/kubecon-2024",
-            "video": "https://youtube.com/watch?v=your-talk",
-            "audience": 500
+            "event": "Kubernetes Community Days Bengaluru 2025",
+            "title": "Setting up Hybrid Workloads with Istio on Kubernetes",
+            "date": "2025-06-07",
+            "location": "Bengaluru, India",
+            "type": "Lightning Talk",
+            "description": "Exploring the setup and management of hybrid workloads using Istio service mesh on Kubernetes, focusing on best practices and real-world applications.",
+            "slides": "https://docs.google.com/presentation/d/15uxEVLLu_PwihvJcVyTXl2M2JBNJHgsZ/edit?usp=sharing&ouid=109155821986244082307&rtpof=true&sd=true",
+            "info": "https://www.linkedin.com/posts/sayed-imran_kubernetes-kcdblr-kcd2025-activity-7338085677298851842-W9UY",
+            "audience": 300
         },
         {
             "id": 2,
-            "event": "DevOps Days",
-            "title": "GitOps: The Future of Continuous Deployment",
-            "date": "2024-01-15",
-            "location": "San Francisco, USA",
-            "type": "Workshop",
-            "description": "Hands-on workshop covering GitOps principles and implementation using ArgoCD and Flux for automated deployments.",
-            "slides": "https://slides.com/yourname/devopsdays-2024",
-            "video": "https://youtube.com/watch?v=your-workshop",
-            "audience": 150
+            "event": "K8SUG India Meetup #3",
+            "title": "Navigating the Clouds: Multi-Cluster Networking with Istio Across Multi-Cloud",
+            "date": "2025-04-26",
+            "location": "Bengaluru, India",
+            "type": "Session",
+            "description": "A detailed session on implementing multi-cluster networking with Istio across AWS and GCP Kubernetes clusters, showcasing practical examples and deployment strategies.",
+            "slides": "https://www.canva.com/design/DAGlnEkRWiM/E1SUKO2_KWJ0ZqVGoPCMkQ/view",
+            "info": "https://www.linkedin.com/posts/sayed-imran_kubernetes-istio-cloudnative-activity-7322462085567651841-vU0i",
+            "audience": 300
         },
         {
             "id": 3,
-            "event": "Cloud Native Meetup",
-            "title": "Observability in Kubernetes: Metrics, Logs, and Traces",
-            "date": "2023-11-20",
-            "location": "London, UK",
-            "type": "Meetup Talk",
-            "description": "Deep dive into implementing comprehensive observability solutions using Prometheus, Grafana, Jaeger, and OpenTelemetry.",
-            "slides": "https://slides.com/yourname/observability-k8s",
-            "video": "https://youtube.com/watch?v=your-meetup-talk",
-            "audience": 80
+            "event": "GDG On Campus - NIST University",
+            "title": "Build with AI: Gemini Workshop",
+            "date": "2025-03-29",
+            "location": "NIST University, Berhampur, Odisha",
+            "type": "Workshop",
+            "description": "Hands-on workshop on building AI applications with Google Cloud's Gemini, focusing on practical implementations and use cases.",
+            "slides": "https://www.canva.com/design/DAGi_AOmAQ8/KBw6DxH96KW81p7xV6vfpQ/view",
+            "info": "https://www.linkedin.com/posts/gdgnist_buildwithai-geminiworkshop-googledevelopers-activity-7311339078422011904-dcpv",
+            "audience": 400
         },
         {
             "id": 4,
-            "event": "AWS Community Day",
-            "title": "Serverless CI/CD with AWS CodePipeline and Lambda",
-            "date": "2023-09-12",
-            "location": "Virtual Event",
-            "type": "Lightning Talk",
-            "description": "Quick overview of building serverless CI/CD pipelines using AWS native services for reduced infrastructure overhead.",
-            "slides": "https://slides.com/yourname/serverless-cicd",
-            "video": "https://youtube.com/watch?v=your-lightning-talk",
-            "audience": 300
+            "event": "K8SUG India Meetup #1",
+            "title": "Leveraging Istio to connect External VM to Kubernetes",
+            "date": "2025-02-15",
+            "location": "Bengaluru, India",
+            "type": "Session",
+            "description": "A session on integrating external virtual machines with Kubernetes clusters using Istio, enhancing service discovery and security.",
+            "slides": "https://www.canva.com/design/DAGeuAUNAcE/l9ZUMxdVTH3N7OQPzsOJmw/view",
+            "info": "https://www.linkedin.com/posts/sayed-imran_kubestronaut-kubernetes-istio-activity-7296915438997839872-1CuM",
+            "audience": 200
         }
     ],
     "skills": {
@@ -320,44 +337,32 @@
         ],
         "cicd": [
             "Jenkins",
-            "GitLab CI",
             "GitHub Actions",
-            "ArgoCD",
-            "Flux"
+            "ArgoCD"
         ],
         "iac": [
             "Terraform",
             "Ansible",
-            "CloudFormation",
             "Pulumi"
         ],
         "monitoring": [
             "Prometheus",
             "Grafana",
-            "ELK Stack",
-            "Jaeger",
-            "OpenTelemetry"
+            "Jaeger"
         ],
         "security": [
             "Vault",
-            "SOPS",
             "Falco",
             "Trivy",
-            "OPA/Gatekeeper"
+            "Kyverno"
         ],
         "programming": [
             "Python",
-            "Go",
-            "Bash",
-            "YAML",
-            "JSON"
+            "Go"
         ],
-        "tools": [
-            "Git",
-            "Linux",
-            "Istio",
-            "Consul",
-            "Vault"
+        "databases": [
+            "PostgreSQL",
+            "MongoDB"
         ]
     }
 }

@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Mic, Calendar, MapPin, Users, ExternalLink, Play } from 'lucide-react';
+import { Mic, Calendar, MapPin, Users, ExternalLink, Info } from 'lucide-react';
 
 interface SpeakingEvent {
     id: number;
@@ -12,7 +12,7 @@ interface SpeakingEvent {
     type: string;
     description: string;
     slides?: string;
-    video?: string;
+    info?: string;
     audience: number;
 }
 
@@ -129,17 +129,17 @@ export default function SpeakingSection({ events }: SpeakingSectionProps) {
                                                 </motion.a>
                                             )}
 
-                                            {event.video && (
+                                            {event.info && (
                                                 <motion.a
-                                                    href={event.video}
+                                                    href={event.info}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     whileHover={{ scale: 1.05 }}
                                                     whileTap={{ scale: 0.95 }}
                                                     className="inline-flex items-center px-4 py-2 text-sm bg-gradient-to-r from-cyan-500/20 to-blue-600/20 border border-cyan-500/30 text-cyan-400 rounded-lg hover:from-cyan-500/30 hover:to-blue-600/30 transition-all duration-200"
                                                 >
-                                                    <Play className="w-4 h-4 mr-2" />
-                                                    Watch Video
+                                                    <Info className="w-4 h-4 mr-2" />
+                                                    More Info
                                                 </motion.a>
                                             )}
                                         </div>
@@ -176,7 +176,7 @@ export default function SpeakingSection({ events }: SpeakingSectionProps) {
                         <div className="w-px h-10 bg-slate-600" />
                         <div className="text-center">
                             <div className="text-2xl font-bold text-cyan-400">6</div>
-                            <div className="text-sm text-gray-400">Countries</div>
+                            <div className="text-sm text-gray-400">Locations</div>
                         </div>
                     </div>
                 </motion.div>

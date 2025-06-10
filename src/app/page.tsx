@@ -71,14 +71,14 @@ export default function Home() {
         {/* Certifications Section */}
         <CertificationsSection certifications={portfolioData.certifications} />
 
+        {/* Speaking Section */}
+        <SpeakingSection events={portfolioData.speaking} />
+
         {/* Projects Section */}
         <ProjectsSection projects={portfolioData.projects} />
 
         {/* Articles Section */}
         <ArticlesSection articles={portfolioData.articles} />
-
-        {/* Speaking Section */}
-        <SpeakingSection events={portfolioData.speaking} />
 
         {/* Contact Section */}
         <ContactSection personalData={portfolioData.personal} />

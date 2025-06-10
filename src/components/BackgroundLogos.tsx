@@ -61,19 +61,12 @@ export default function BackgroundLogos({ scrollY }: BackgroundLogosProps) {
             priority: true // Make Docker visible early
         },
         {
-            src: `${baseUrl}/azure.png`,
-            alt: 'Azure',
-            scale: 240,
-            position: { x: -60, y: -30 },
-            rotation: 20,
-            priority: true // Make Azure visible early
-        },
-        {
             src: `${baseUrl}/istio-logo-icon-342x512-gh5boo0w.png`,
             alt: 'Istio',
             scale: 220,
-            position: { x: 60, y: -20 },
-            rotation: -25
+            position: { x: -40, y: -30 },
+            rotation: -15,
+            priority: true // Make Istio visible early to fill the gap left by Azure
         },
         {
             src: `${baseUrl}/Linux.png`,
