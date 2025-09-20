@@ -275,6 +275,30 @@
     "speaking": [
         {
             "id": 1,
+            "event": "Cloud Community Days Mangalore 2025",
+            "title": "Unifying Kubernetes: Live Multi-Cloud Migration to GKE with Istio",
+            "date": "2025-07-19",
+            "location": "Mangalore, India",
+            "type": "Session",
+            "description": "A comprehensive session on leveraging Istio for cross-cluster networking across EKS and GKE Azure Kubernetes clusters, including a live migration demonstration.",
+            "slides": "https://docs.google.com/presentation/d/1hMRxmTy6KmDNvFPvYx8AmWjXJTw6cUToGg7G6WblOrk/",
+            "info": "https://gdg.community.dev/events/details/google-gdg-cloud-mangalore-presents-google-cloud-community-days-2025-mangalore/",
+            "audience": 750
+        },
+        {
+            "id": 2,
+            "event": "Cloud Community Days Chennai 2025",
+            "title": "Unifying Kubernetes: Live Multi-Cloud Migration to GKE with Istio",
+            "date": "2025-07-12",
+            "location": "Chennai, India",
+            "type": "Session",
+            "description": "A comprehensive session on leveraging Istio for cross-cluster networking across AWS and GKE Kubernetes clusters, including a live migration demonstration.",
+            "slides": "https://docs.google.com/presentation/d/1hMRxmTy6KmDNvFPvYx8AmWjXJTw6cUToGg7G6WblOrk/",
+            "info": "https://gdg.community.dev/events/details/google-gdg-cloud-chennai-presents-cloud-community-days-2025-chennai/",
+            "audience": 300
+        },
+        {
+            "id": 3,
             "event": "Kubernetes Community Days Bengaluru 2025",
             "title": "Setting up Hybrid Workloads with Istio on Kubernetes",
             "date": "2025-06-07",
@@ -286,7 +310,7 @@
             "audience": 300
         },
         {
-            "id": 2,
+            "id": 4,
             "event": "K8SUG India Meetup #3",
             "title": "Navigating the Clouds: Multi-Cluster Networking with Istio Across Multi-Cloud",
             "date": "2025-04-26",
@@ -298,7 +322,7 @@
             "audience": 300
         },
         {
-            "id": 3,
+            "id": 5,
             "event": "GDG On Campus - NIST University",
             "title": "Build with AI: Gemini Workshop",
             "date": "2025-03-29",
@@ -310,7 +334,7 @@
             "audience": 400
         },
         {
-            "id": 4,
+            "id": 6,
             "event": "K8SUG India Meetup #1",
             "title": "Leveraging Istio to connect External VM to Kubernetes",
             "date": "2025-02-15",
