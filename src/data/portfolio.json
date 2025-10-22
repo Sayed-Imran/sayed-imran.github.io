@@ -39,6 +39,15 @@
         },
         {
             "id": 4,
+            "name": "Professional Cloud Network Engineer",
+            "issuer": "Google Cloud",
+            "date": "2025",
+            "credentialId": "64e36650d0e445a68657f722d9c1b6be",
+            "logo": "https://images.credly.com/size/340x340/images/08a802bf-f2fa-44fb-8110-92acf6195738/image.png",
+            "verificationUrl": "https://www.credly.com/badges/7ff6e6e6-fe52-4371-9862-e8737d0cf5e0"
+        },
+        {
+            "id": 5,
             "name": "Professional Cloud Architect Certification",
             "issuer": "Google Cloud",
             "date": "2023",
@@ -47,7 +56,16 @@
             "verificationUrl": "https://www.credly.com/badges/3a801576-70f0-4d20-af3c-eaf1fb6e0355"
         },
         {
-            "id": 5,
+            "id": 6,
+            "name": "Professional Cloud Security Engineer",
+            "issuer": "Google Cloud",
+            "date": "2025",
+            "credentialId": "196f9791fd2445d4952890f423c57d35",
+            "logo": "https://images.credly.com/size/340x340/images/4ea0ec5c-6258-4c26-9282-6ed233c0c7ac/image.png",
+            "verificationUrl": "https://www.credly.com/badges/50ef02d8-7cf3-401b-8288-8e47ee62d882"
+        },
+        {
+            "id": 7,
             "name": "AWS Certified Solutions Architect - Associate",
             "issuer": "Amazon Web Services",
             "date": "2023",
@@ -56,7 +74,7 @@
             "verificationUrl": "https://www.credly.com/badges/48d44d7b-e0d4-4beb-89ca-89ec5ea397b6"
         },
         {
-            "id": 6,
+            "id": 8,
             "name": "CKS: Certified Kubernetes Security Specialist",
             "issuer": "The Linux Foundation",
             "date": "2025",
@@ -65,7 +83,7 @@
             "verificationUrl": "https://www.credly.com/badges/3f583a37-c323-4d0b-bea3-51e1a1e7464c"
         },
         {
-            "id": 7,
+            "id": 9,
             "name": "CKA: Certified Kubernetes Administrator",
             "issuer": "The Linux Foundation",
             "date": "2025",
@@ -74,7 +92,7 @@
             "verificationUrl": "https://www.credly.com/badges/e228cc5d-ebbb-4914-8c88-26a5184ae176"
         },
         {
-            "id": 8,
+            "id": 10,
             "name": "CKAD: Certified Kubernetes Application Developer",
             "issuer": "The Linux Foundation",
             "date": "2025",
@@ -83,7 +101,7 @@
             "verificationUrl": "https://www.credly.com/badges/7246cf55-f754-4665-b1ea-ce8164259811"
         },
         {
-            "id": 9,
+            "id": 11,
             "name": "KCNA: Kubernetes and Cloud Native Associate",
             "issuer": "The Linux Foundation",
             "date": "2025",
@@ -92,7 +110,7 @@
             "verificationUrl": "https://www.credly.com/badges/22e0a74b-ef82-4729-abaf-98500ad9de8d"
         },
         {
-            "id": 10,
+            "id": 12,
             "name": "KCSA: Kubernetes and Cloud Native Security Associate",
             "issuer": "The Linux Foundation",
             "date": "2025",
@@ -101,7 +119,7 @@
             "verificationUrl": "https://www.credly.com/badges/f911dee8-a386-4877-97ae-3b08f5b590fd"
         },
         {
-            "id": 11,
+            "id": 13,
             "name": "Associate Cloud Engineer Certification",
             "issuer": "Google Cloud",
             "date": "2023",
@@ -110,7 +128,7 @@
             "verificationUrl": "https://www.credly.com/badges/54db5dde-7831-428a-b5fe-bca2843ee530"
         },
         {
-            "id": 12,
+            "id": 14,
             "name": "Cloud Digital Leader Certification",
             "issuer": "Google Cloud",
             "date": "2022",
@@ -119,7 +137,7 @@
             "verificationUrl": "https://www.credly.com/badges/d78160ee-661d-423b-83f9-f221c2956503"
         },
         {
-            "id": 13,
+            "id": 15,
             "name": "GitHub Actions",
             "issuer": "GitHub",
             "date": "2024",
@@ -128,7 +146,7 @@
             "verificationUrl": "https://www.credly.com/badges/50ced870-06d2-4fdc-b67e-0652167ae5c9"
         },
         {
-            "id": 14,
+            "id": 16,
             "name": "GitHub Foundations",
             "issuer": "GitHub",
             "date": "2024",
