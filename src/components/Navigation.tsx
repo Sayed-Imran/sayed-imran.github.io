@@ -62,7 +62,7 @@ export default function Navigation() {
                     {/* Social Links */}
                     <div className="hidden md:flex items-center space-x-4">
                         <motion.a
-                            href="https://github.com"
+                            href="https://github.com/sayed-imran"
                             target="_blank"
                             rel="noopener noreferrer"
                             whileHover={{ scale: 1.1, y: -2 }}
@@ -71,7 +71,7 @@ export default function Navigation() {
                             <Github size={20} />
                         </motion.a>
                         <motion.a
-                            href="https://linkedin.com"
+                            href="https://linkedin.com/in/sayed-imran"
                             target="_blank"
                             rel="noopener noreferrer"
                             whileHover={{ scale: 1.1, y: -2 }}
@@ -80,7 +80,7 @@ export default function Navigation() {
                             <Linkedin size={20} />
                         </motion.a>
                         <motion.a
-                            href="https://medium.com"
+                            href="https://sayed-imran.medium.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             whileHover={{ scale: 1.1, y: -2 }}
